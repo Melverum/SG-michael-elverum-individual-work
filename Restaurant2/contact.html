@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Theme The Band</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="restaurant.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class=" collapse navbar-collapse " id="myNavbar ">
+                <ul class="nav navbar-nav navbar-left">
+                    <p class="navbar-brand" style="font-family: 'Lora', serif; padding-left: 50px; font-weight: bold"> Welcome to Minnesota Mikes! </p>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="home.html "> <span class="glyphicon glyphicon-home"> </span></a>
+                    </li>
+                    <li><a href="menu.html ">MENU</a></li>
+                    <li><a href="contact.html ">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container" style="padding-top: 60px; font-weight: bold">
+        <h3 class="text-center" style="font-weight: bold">Contact Us</h3>
+        <p class="text-center" style="font-size: 12pt"><em>We would love to hear from you!</em></p>
+        <p class="text-center" style="font-size: 8pt; color: #ff3333;"> Required fields have red border </p>
+        <form>
+            <div class="row">
+                <div class="col-xs-2">
+                </div>
+                <div class="col-xs-4 form-group">
+                    <input class="form-control" style="border-color: #ff3333" id="first" name="first" placeholder="First Name" type="text" required>
+                </div>
+                <div class="col-xs-4 form-group">
+                    <input class="form-control" style="border-color: #ff3333" id="last" name="last" placeholder="Last Name" type="text" required>
+                </div>
+                <div class="col-xs-2">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-2"></div>
+                <div class="col-xs-4 form-group">
+                    <input class="form-control" style="border-color: #ff3333" id="phone" name="phone" placeholder="Phone Number" type="text" required>
+                </div>
+                <div class="col-xs-4 form-group">
+                    <input class="form-control" style="border-color: #ff3333" id="email" name="email" placeholder="Email" type="text" required>
+                </div>
+                <div class="col-xs-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-2"></div>
+                <div class="col-xs-8 form-group">
+                    <textarea class="form-control" id="additionalInfo" name="additionalInfo" placeholder="Additional Information..." rows="5"></textarea>
+                </div>
+                <div class="col-xs-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-2"></div>
+                <div class="col-xs-8 form-group">
+                    <select class="form-control" style="border-color: #ff3333" name="Phones" style="width: 100%" style="height: 10px" required>
+                <option selected="true" disabled="disabled" value="Reason for Inquiry">Reason for Inquiry...</option>
+                <option value="Catering "> Catering </option>
+                <option value="Private Party "> Private Party </option>
+                <option value="Inquiry "> Inquiry </option> 
+                <option value="Other "> Other </option> 
+            </select>
+                </div>
+                <div class="col-xs-2 "></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-2"></div>
+                <div class="col-xs-3 form-group">
+                    <p style="font-weight: bold">Have you been to the restaurant?</p>
+                </div>
+                <div class="col-xs-4 form-group">
+                    <input type="radio" name="answer" value="No" checked /> No &nbsp; &nbsp;
+                    <input type="radio" name="answer" value="Yes" /> Yes
+                </div>
+                <div class="col-xs-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-2"></div>
+                <div class="col-xs-3 form-group">
+                    <p style="font-weight: bold"> Best days to contact you: </p>
+                </div>
+                <div class="col-xs-4 form-group">
+                    <input type="checkbox" name="choices" value="m" /> M &nbsp;
+                    <input type="checkbox" name="choices" value="t" /> T &nbsp;
+                    <input type="checkbox" name="choices" value="w" /> W &nbsp;
+                    <input type="checkbox" name="choices" value="th" /> Th &nbsp;
+                    <input type="checkbox" name="choices" value="f" /> F &nbsp;
+                </div>
+                <div class="col-xs-3"></div>
+            </div>
+
+            <div class="row ">
+                <div class="col-xs-2 "></div>
+                <div class="col-xs-8 form-group">
+                    <button class="btn center" style="background: #29292c; color: white" type="submit ">Sumbit</button>
+                    <button class="btn center" style="background: #29292c; color: white" type="reset">Clear</button>
+                </div>
+                <div class="col-xs-2 "></div>
+            </div>
+        </form>
+    </div>
+    <footer class="text-center">
+        <p>| <em> 5711 Tasteville Ave, Flavortown Minnesota 55402 </em> |</p>
+        <p> | <em> 555-642-4235 </em>|</p>
+    </footer>
+
+</body>
+
+</html>

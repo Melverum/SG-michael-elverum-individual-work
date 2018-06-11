@@ -1,0 +1,5 @@
+A1::Twix::1.50::2
+A2::Mtn.Dew::1.60::2
+A3::Coke::1.60::1
+A4::Snickers::1.50::1
+A5::Doritos::1.24::6

@@ -1,0 +1,15 @@
+C:\Repos\SG_Melverum\michael-elverum-individual-work\VendingMachine\src\main\java\com\sg\vendingmachine\servicelayer\VendingMachineInsufficientFundsException.java
+C:\Repos\SG_Melverum\michael-elverum-individual-work\VendingMachine\src\main\java\com\sg\vendingmachine\dto\Coin.java
+C:\Repos\SG_Melverum\michael-elverum-individual-work\VendingMachine\src\main\java\com\sg\vendingmachine\App.java
+C:\Repos\SG_Melverum\michael-elverum-individual-work\VendingMachine\src\main\java\com\sg\vendingmachine\servicelayer\VendingMachineServiceLayer.java
+C:\Repos\SG_Melverum\michael-elverum-individual-work\VendingMachine\src\main\java\com\sg\vendingmachine\dao\VendingMachineDaoImpl.java
+C:\Repos\SG_Melverum\michael-elverum-individual-work\VendingMachine\src\main\java\com\sg\vendingmachine\dto\Item.java
+C:\Repos\SG_Melverum\michael-elverum-individual-work\VendingMachine\src\main\java\com\sg\vendingmachine\ui\UserIOConsoleImpl.java
+C:\Repos\SG_Melverum\michael-elverum-individual-work\VendingMachine\src\main\java\com\sg\vendingmachine\servicelayer\VendingMachineValidAmountException.java
+C:\Repos\SG_Melverum\michael-elverum-individual-work\VendingMachine\src\main\java\com\sg\vendingmachine\ui\UserIO.java
+C:\Repos\SG_Melverum\michael-elverum-individual-work\VendingMachine\src\main\java\com\sg\vendingmachine\ui\VendingMachineView.java
+C:\Repos\SG_Melverum\michael-elverum-individual-work\VendingMachine\src\main\java\com\sg\vendingmachine\dao\VendingMachineDao.java
+C:\Repos\SG_Melverum\michael-elverum-individual-work\VendingMachine\src\main\java\com\sg\vendingmachine\servicelayer\VendingMachineInvalidSelectionException.java
+C:\Repos\SG_Melverum\michael-elverum-individual-work\VendingMachine\src\main\java\com\sg\vendingmachine\advice\ExceptionLogging.java
+C:\Repos\SG_Melverum\michael-elverum-individual-work\VendingMachine\src\main\java\com\sg\vendingmachine\controller\VendingMachineController.java
+C:\Repos\SG_Melverum\michael-elverum-individual-work\VendingMachine\src\main\java\com\sg\vendingmachine\dao\VendingMachineDaoException.java

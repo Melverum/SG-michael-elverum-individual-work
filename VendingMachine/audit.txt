@@ -1,0 +1,6 @@
+2018-05-25T10:49:57.911 : com.sg.vendingmachine.servicelayer.VendingMachineInsufficientFundsException: You do not have enough money! hasEnoughMoney: 1.00Item: Twix
+2018-05-29T09:10:29.418 : com.sg.vendingmachine.servicelayer.VendingMachineValidAmountException: Invalid amount. Money must be greater than 0 and not null! ValidateMoneyAmount: 
+2018-05-29T10:35:10.959 : com.sg.vendingmachine.servicelayer.VendingMachineValidAmountException: Invalid amount. Money must be greater than 0 and not null! ValidateMoneyAmount: 0
+2018-05-29T10:36:02.497 : com.sg.vendingmachine.servicelayer.VendingMachineValidAmountException: Invalid amount. Money must be greater than 0 and not null! ValidateMoneyAmount: 0
+2018-05-29T10:36:20.755 : com.sg.vendingmachine.servicelayer.VendingMachineInsufficientFundsException: You do not have enough money! hasEnoughMoney: 1.50Item: Mtn.Dew
+2018-05-29T10:36:49.791 : com.sg.vendingmachine.servicelayer.VendingMachineInvalidSelectionException: Sorry that is not a valid selection! validSelection: null

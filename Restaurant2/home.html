@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Restaurant Assignment</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="restaurant.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        .food {
+            border: 3px solid transparent;
+            margin-bottom: 25px;
+            width: 100%;
+            opacity: 0.9;
+        }
+        
+        .food:hover {
+            border-color: #2275b3;
+        }
+        
+        .carousel-inner img {
+            width: 100%;
+            /* Set width to 100% */
+            margin: 0 auto;
+            /*background: linear-gradient(
+             rgba(0, 0, 0, 0.5),
+             rgba(0, 0, 0, 0.5)*/
+        }
+        
+        .carousel-caption h2 {
+            color: white;
+            text-shadow: 2px 2px 4px #000000;
+            font-family: 'Lora', serif;
+            font-weight: bold;
+        }
+        
+        .carousel-caption p {
+            color: white;
+            text-shadow: 2px 2px 4px #000000;
+            font-family: 'Lora', serif;
+            font-weight: bold;
+        }
+        
+        #about {
+            font-size: 14pt !important;
+            font-family: 'Lora', serif !important;
+            padding-left: 30% !important;
+            padding-right: 30% !important;
+        }
+    </style>
+</head>
+
+<body onload="confirm('This page is best viewed with JavaScript enabled. By clicking OK you are also confirming that you are a Minnesota Vikings fan.')">
+    <nav class=" navbar navbar-default navbar-fixed-top ">
+        <div class="container-fluid ">
+            <div id="myNavbar ">
+                <ul class="nav navbar-nav navbar-left ">
+
+                    <p class="navbar-brand " style="font-family: 'Lora', serif; padding-left: 50px; font-weight: bold "> Welcome to Minnesota Mikes! </p>
+                </ul>
+                <ul class="nav navbar-nav navbar-right ">
+                    <li>
+                        <a href="home.html "> <span class="glyphicon glyphicon-home "> </span></a>
+                    </li>
+                    <li><a href="menu.html ">MENU</a></li>
+                    <li><a href="contact.html ">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators ">
+            <li data-target="#myCarousel " data-slide-to="0 " class="active "></li>
+            <li data-target="#myCarousel " data-slide-to="1 "></li>
+            <li data-target="#myCarousel " data-slide-to="2 "></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner " role="listbox ">
+            <div class="item active ">
+                <img src="images/bar.jpg " alt="Bar ">
+                <div class="carousel-caption ">
+                    <h2>New Location Opening!</h2>
+                    <p style="font-size: 16pt ">Come check out our newest location opening up in <em>Duluth, MN. </em> Enjoy the same great food and drinks, and on opening day recieve 50% off your entire bill. </p>
+                </div>
+            </div>
+            <div class="item ">
+                <img src="images/bbq2.jpg " alt="Seasonal BBQ ">
+                <div class="carousel-caption ">
+                    <h2>Seasonal BBQ Menu</h2>
+                    <p style="font-size: 16pt ">Every spring we fire up the grills for our Spring through Fall BBQ. So come on down and bring your bibs because its going to get messy.</p>
+                </div>
+            </div>
+            <div class="item ">
+                <img src="images/bloodymary.jpg " alt="Bloody Mary ">
+                <div class="carousel-caption ">
+                    <h2>Drink of the Month!</h2>
+                    <p style="font-size: 16pt ">The drink of the Month is our <em> Famous Bloody Mary </em>made with our secret recipe. Not only does it have a bit of a kick, it also comes with dozens of toppings. </p>
+                </div>
+            </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="left carousel-control " href="#myCarousel " role="button " data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left " aria-hidden="true "></span>
+            <span class="sr-only ">Previous</span>
+        </a>
+        <a class="right carousel-control " href="#myCarousel " role="button " data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right " aria-hidden="true "></span>
+            <span class="sr-only ">Next</span>
+        </a>
+    </div>
+    <div class="container text-center " id="about">
+        <img src="images/minnesotaMikesFinal2.jpg " class="img-circle mikes ">
+        <h3 style="font-weight: bold; text-decoration: underline">Great place to take the whole family!</h3>
+        <p>Minnesota Mikes Bar & Grill offers a variety of options for any appetite. We get all of our ingredients locally so you know they are going to be fresh! Come celebrate any occasion whether it is a birthday or an Anniversary! Come hungry and leave
+            happy!
+        </p>
+    </div>
+    <div class="container text-center ">
+        <div class="row ">
+            <div class="col-sm-4 ">
+                <h4 class="text-center "><strong>Amazing food</strong></h4><br>
+                <img src="images/cheesburger.jpg " class="img-circle food " alt="Picture of Cheesburger and Fries ">
+            </div>
+            <div class="col-sm-4 ">
+                <h4 class="text-center "><strong>Healthy Options</strong></h4><br>
+                <img src="images/salad.jpg " class="img-circle food " alt="Picture of a salad ">
+            </div>
+            <div class="col-sm-4 ">
+                <h4 class="text-center "><strong>70+ Tap Beers</strong></h4><br>
+                <img src="images/beers.jpg " class="img-circle food " alt="Picture of Beers ">
+            </div>
+        </div>
+    </div>
+    <footer class="text-center ">
+        <p>| <em> 5711 Tasteville Ave, Flavortown Minnesota 55402 </em> |</p>
+        <p> | <em> 555-642-4235 </em>|</p>
+    </footer>
+    </div>
+
+</body>
+
+</html>
