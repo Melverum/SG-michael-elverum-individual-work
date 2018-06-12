@@ -8,7 +8,7 @@ $(document).ready(function () {
 
 function loadItems() {
    
-        
+        $('vendingMachineItemsDiv').empty();
         var startingVal = 0;
         setMoneyOut(startingVal.toFixed(2));
         // clearProductDivs();
