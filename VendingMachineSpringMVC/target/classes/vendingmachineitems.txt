@@ -1,0 +1,9 @@
+1::Snickers::1.50::3
+2::Milky Way::1.25::5
+3::Reeses::1.25::7
+4::Mtn. Dew::1.35::2
+5::Coca-Cola::1.35::4
+6::Sprite::1.35::6
+7::Pringles::1.25::4
+8::Chex-Mix::1.95::8
+9::Doritos::1.75::0
